@@ -1,0 +1,27 @@
+{
+  "name": "studentresults",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "18.15.0",
+    "npm": "9.5.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Ovi Sarkar",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.13.5",
+    "nodemon": "^2.0.22",
+    "zxcvbn": "^4.4.2"
+  }
+}
